@@ -20,6 +20,8 @@ body {
   line-height: 23px;
   color: red;
   font-style: italic;
+  width: 220px;
+  float: left;
 }
 
 .address-top {
@@ -146,3 +148,9 @@ h3 {
 .feedback-link, .academy-link {
   color: #ffd180;
 }
+
+.contaier {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  }
