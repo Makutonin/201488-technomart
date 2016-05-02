@@ -1,27 +1,96 @@
-body {
-  font-size: 14px;
-  font-family:  Cuprum, PT Sans;
+:root {
+  font-size: 13px;
+  line-height: 1.71em;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: black;
+  background-color: grey;
+}
+
+div {outline: 1px solid #666;}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-top {
+  padding-bottom: 36px;
+  background-color: #293449;
 }
 
 .label {
+  float: left;
+  background-color: #ee3643;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 31px;
+  padding-right: 31px;
+  position: relative;
+}
+
+.label:before {
+  content: "";
+  width: 220px;
+  border-bottom: 5px solid #b52933;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+}
+
+.label-name {
   font-size: 24px;
-  line-height: 24px;
+  line-height: 1em;
   color: white;
+  font-family: "Cuprum";
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .purchases {
+  font-family: "Cuprum";
+  float: left;
   font-size: 17px;
-  line-height: 18px;
+  line-height: 0.94em;
+  text-decoration: none;
   color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.search-text {
+  width: 150px;
+}
+
+.checkout {
+  background-color: #63a63e;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header-bottom {
+  background-color: #f1f5f7;
 }
 
 .main-discription {
   font-size: 16px;
-  line-height: 23px;
+  line-height: 0.69em;
   color: red;
   font-style: italic;
-  width: 220px;
+  width: 255px;
   float: left;
+  margin-top: 54px;
+  margin-bottom: 47px;
+}
+
+.address-phone {
+  margin-top: 54px;
+  margin-left: 40px;
 }
 
 .address-top {
@@ -30,6 +99,8 @@ body {
 }
 
 .phone-number {
+  padding: 7px 50px;
+  border: 3px solid white; 
   font-size: 21px;
   line-height: 18px;
   color: #e9292a;
@@ -47,17 +118,75 @@ body {
   color: black;
 }
 
+.profile-btn {
+  float: right;
+  background-color: #ffffff;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 10px;
+  margin-top: 54px;
+}
+
+.enter {
+ padding-left: 0px;
+ margin-right: 0px;
+}
+
+.top-nav {
+  float: left;
+}
+
 .nav-link {
+  font-family: "Cuprum";
+  float: left;
+  text-decoration: none;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 1em;
   color: white;
+  background-color: #293449;
+  padding: 17px 28px;
+  margin-top: 60px; 
+  margin-right: 0px;
+  margin-bottom: 60px;
+}
+
+.nav-link:last-child {
+ padding-right: 27px; 
+}
+
+.main-menu {
+  margin-top: 60px;
 }
 
 .menu-item {
+  font-family: "Cuprum";
   font-size: 24px;
-  line-height: 30px;
+  line-height: 0.8em;
   color: white;
   font-weight: bold;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;   
+}
+
+.materials, .tools, .tech, .discounts, .delivery {
+  position: relative;
+  width: 300px;
+  height: 123px;
+}
+
+.menu-item-name {
+  position: absolute;
+  left: 25px;
+  top: 24px;
+}
+
+.materials-img, .tools-img, .tech-img, .discounts-img, .delivery-img {
+  position: absolute;
+  right: 30px;
+  top: 24px;
 }
 
 .btn {
@@ -67,21 +196,98 @@ body {
   text-transform: uppercase;
 }
 
+.catalog-btn {
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 0.77em;
+  position: absolute;
+  bottom: 22px;
+  left: 25px;
+  width: 135px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.materials {
+  background-color: #f6b22d;
+} 
+
+.materials .catalog-btm {
+  background-color: #dda028;
+}
+
+.btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.menu-slider {
+  position: relative;
+}
+
 .slider-header {
+  font-family: "Cuprum";
   font-size: 36px;
   line-height: 30px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  position: absolute;
+  top: 24px;
+  left: 25px;
+  padding: 0px;
 }
 
 .slider-main-text {
+  font-family: "Cuprum";
   font-size: 18px;
   line-height: 24px;
   color: white;
+  position: absolute;
+  top: 62px;
+  left: 25px;
 }
 
-.pop-goods-h, pop-comp-h {
+.open-catalog {
+  font-family: "Cuprum";
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+  padding-right: 44px;
+  position: absolute;
+  top: 206px;
+  left: 25px;
+  background-color: #ee3643;
+}
+
+.prev {
+  position: absolute;
+  top: 115px;
+  left: 25px;
+} 
+
+.next {
+  position: absolute;
+  top: 115px;
+  right: 20px;
+}
+
+.fist-slide {
+  position: absolute;
+  top: 220px;
+  right: 295px;
+}
+
+.second-slide {
+  position: absolute;
+  top: 220px;
+  right: 315px;
+}
+
+.pop-goods-h, .pop-comp-h {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
@@ -116,9 +322,54 @@ h3 {
   text-transform: uppercase;
 }
 
+.serv-h {
+  font-size: 30px;
+  line-height: 1.25em;
+}
+
+.service-about {
+  font-size: 13px;
+  line-height: 0.54em;
+}
+
+.serv-btn{
+  font-size: 21px;
+  line-height: 0.7em;
+}
+
+.serv-discription-header {
+  font-size: 36px;
+  line-height: 1.5em;
+}
+
+.serv-discription {
+  font-size: 13px;
+  line-height: 0.54em;
+}
+
+.info-h {
+  font-size: 30px;
+  line-height: 1em;
+}
+
+.about-us-discription {
+  font-size: 13px;
+  line-height: 0.54em;
+}
+
+.transport-list-item {
+  font-size: 18px;
+  line-height: 0.9em;
+}
+
+.contacts-discription {
+  font-size: 13px;
+  line-height: 0.54em;
+}
+
 .label-footer {
   font-size: 30px;
-  line-height: 30px;
+  line-height: 1em;
   color: white;
   text-transform: uppercase;
 }
@@ -149,8 +400,119 @@ h3 {
   color: #ffd180;
 }
 
-.contaier {
+.container {
   width: 940px;
   margin-left: auto;
   margin-right: auto;
   }
+
+.clearfix { 
+  clear: both; 
+  content: ""; 
+  display: table; 
+}
+
+.label, .purchases {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-discription, .address-phone, .profile-btn {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu-item {
+  
+}
+
+.menu-slider {
+  width: 620px;
+  margin-right: 20px;
+}
+
+.delivery, .discounts, .tech {
+ margin-right: 0px;
+}
+
+.drills {
+  display: none;
+}
+
+.pop-head, .pop-btn {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.goods-item {
+  float: left;
+}
+
+.pop-comp-item {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 145px;
+  outline: 1px solid #e5e5e5;
+}
+
+.pop-comp-item:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.serv-discription {
+  width: 200px;
+}
+
+.guarantee, .credit {
+  display: none;
+}
+
+.serv-btn-list {
+  width: 150px;
+}
+
+.serv-btn-list, .serv-about-item, .serv-img {
+float: left;
+}
+
+.serv-list {
+  width: 940px;
+}
+
+.serv-btn {
+  float: left;
+}
+
+.serv-btn-list {
+  margin-top: 100px;
+}
+
+.about-us, .contacts {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.name-address {
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.address-bottom, .phone-number {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.navigation {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.copyright, .socialmedia, .feedback, .produse, .socialmedia-item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
