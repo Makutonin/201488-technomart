@@ -6,7 +6,7 @@
   background-color: grey;
 }
 
-di {outline: 1px solid #666;}
+div {outline: 1px solid #666;}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
@@ -24,17 +24,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-top {
-  padding-bottom: 36px;
   background-color: #293449;
 }
 
 .label {
   float: left;
+  width: 220px;
   background-color: #ee3643;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 31px;
-  padding-right: 31px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
   position: relative;
 }
 
@@ -51,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   line-height: 1em;
   color: white;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   list-style: none;
   text-align: center;
   text-decoration: none;
@@ -59,28 +58,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .purchases {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   float: left;
   font-size: 17px;
-  line-height: 0.94em;
+  line-height: 1.05em;
   text-decoration: none;
   color: white;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 20px;
   padding-right: 30px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-top: 11px;
 }
 
 .search-text {
   width: 150px;
+  padding-bottom: 0px;
 }
 
 .checkout {
+  float: right;
+  width: 150px;
+  text-align: center;
   background-color: #63a63e;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 0px;
+  padding-bottom: 13px;
+  padding-top: 12px;
 }
 
 .header-bottom {
@@ -88,19 +92,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-discription {
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 0.69em;
+  line-height: 1.43em;
   color: red;
   font-style: italic;
   width: 255px;
   float: left;
-  margin-top: 54px;
-  margin-bottom: 47px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 53px;
 }
 
 .address-phone {
-  margin-top: 54px;
-  margin-left: 40px;
+  margin-top: 56px;
+  margin-left: 15px;
 }
 
 .address-top {
@@ -109,11 +115,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .phone-number {
-  padding: 7px 50px;
+  padding: 9px 55px;
   border: 3px solid white; 
   font-size: 21px;
   line-height: 18px;
+  text-decoration: none;
   color: #e9292a;
+}
+
+.phone {
+  margin-bottom: 12px;
 }
 
 .address-top {
@@ -131,17 +142,21 @@ h1, h2, h3, h4, h5, h6 {
 .profile-btn {
   float: right;
   background-color: #ffffff;
-  padding-bottom: 16px;
-  padding-top: 16px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-right: 10px;
-  margin-top: 54px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  margin-top: 44px;
+}
+
+.submit {
+  width: 150px;
+  margin-right: 0px;
 }
 
 .enter {
- padding-left: 0px;
- margin-right: 0px;
+  width: 120px;
+  margin-right: 10px;
 }
 
 .top-nav {
@@ -149,21 +164,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   float: left;
   text-decoration: none;
-  font-size: 18px;
+  text-align: center;
+  font-size: 17px;
   line-height: 1em;
   color: white;
-  background-color: #293449;
-  padding: 17px 28px;
-  margin-top: 60px; 
+  background-color: #32425c;
+  padding: 19px 27px;
+  margin-top: 0px; 
   margin-right: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 61px;
+  border-bottom: 5px solid #293449;
 }
 
-.nav-link:last-child {
- padding-right: 27px; 
+.nav-link:last-child { 
+  padding-right: 25px;
 }
 
 .main-menu {
@@ -171,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-item {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 24px;
   line-height: 0.8em;
   color: white;
@@ -200,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .catalog-btn {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 0.77em;
   position: absolute;
@@ -221,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider-header {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 36px;
   line-height: 30px;
   color: white;
@@ -234,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider-main-text {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: white;
@@ -244,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .open-catalog {
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   padding-top: 12px;
@@ -292,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .goods-item {
   position: relative;
-  display: inline-block;
+  float: left;
   width: 218px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -319,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .good-name {
-  font-family: PT Sans;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   min-height: 40px;
@@ -332,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .prev-price {
-  font-family: PT Sans;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   min-height: 20px;
@@ -345,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .price-item {
-  font-family: PT Sans;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: white;
@@ -675,14 +692,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .serv-discription-header {
-  font-family: 36px;
+  font-size: 36px;
   line-height: 24px;
   padding-top: 3px;
   color: #32425c;
 }
 
 .serv-discription {
-  font-family: 13px;
+  font-size: 13px;
   line-height: 24px;
   width: 300px;
 }
