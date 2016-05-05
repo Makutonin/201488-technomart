@@ -206,14 +206,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu-item-name {
   position: absolute;
-  left: 25px;
-  top: 24px;
+  left: 23px;
+  top: 26px;
+  font-family: "Cuprum", "Arial", sans-serif;
 }
 
-.materials-img, .tools-img, .tech-img, .discounts-img, .delivery-img {
+.materials-img {
   position: absolute;
-  right: 30px;
-  top: 24px;
+  right: 43px;
+  top: 31px;
+}
+
+.tools-img {
+  position: absolute;
+  right: 28px;
+  top: 33px;
+}
+
+
+.tech-img {
+  position: absolute;
+  right: 31px;
+  top: 31px;
+}
+
+
+.discounts-img {
+  position: absolute;
+  right: 45px;
+  top: 26px;
+}
+
+.delivery-img {
+  position: absolute;
+  right: 31px;
+  top: 32px;
 }
 
 .catalog-btn {
@@ -224,19 +251,52 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 22px;
   left: 25px;
   width: 135px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   text-align: center;
+  border-radius: 3px;
 }
 
 .materials {
   background-color: #f6b22d;
 } 
 
-.materials .catalog-btm {
+.tools {
+  background-color: #4aafde;
+} 
+
+.materials .catalog-btn {
   background-color: #dda028;
 }
 
+.tools .catalog-btn {
+  background-color: #429dc7;
+}
+
+.tech {
+  background-color: #cc79d1;
+} 
+
+.tech .catalog-btn {
+  background-color: #b76dbc;
+} 
+
+.discounts {
+  background-color: #85d179;
+} 
+
+.discounts .catalog-btn {
+  background-color: #77bc6d;
+} 
+
+.delivery {
+  background-color: #f6b22d;
+} 
+
+.delivery {
+  background-color: #dda028;
+} 
+ 
 .slider-header {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 36px;
@@ -264,14 +324,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 50px;
-  padding-right: 44px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 40px;
   position: absolute;
   top: 206px;
   left: 25px;
   background-color: #ee3643;
+  border-radius: 3px;
 }
 
 .prev {
