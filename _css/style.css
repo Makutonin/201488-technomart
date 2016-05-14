@@ -285,6 +285,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 230px;
   height: 41px;
   margin-top: -10px;
+  border: 0px;
 }
 
 .search-text:focus {
@@ -292,17 +293,18 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-.search-text:focus + .markes-link:after {
+.search-text:focus + .for-icon:after {
   content: "";
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 19px;
+  left: -1px;
   transform: translate(-50%, -50%);
   background-image: url(../_img/spritesheethover.png);
   background-repeat: no-repeat;
-  width: 17px;
-  height: 17px;
-  background-position: -15px -201px;
+  width: 45px;
+  height: 43px;
+  background-position: 0px -140px;
+  background-color: white;
 }
 
 .markes-link {
