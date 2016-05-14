@@ -14,8 +14,7 @@
             <a class="label-name" href="#">Техномарт</a>
           </h1>
           <div class="search-link purchases">
-            <span class="search">Поиск:</span>
-            <input class="search-text" type="text" name="search-input">
+            <input class="search-text" type="text" name="search-input" placeholder="Поиск:">
           </div>
           <a class="markes-link purchases" href="#">
             <span class="markes">Закладки:</span>
@@ -33,12 +32,12 @@
            <h2 class="main-discription">Интернет-магазин строительных материалов <br> и инструментов для ремонта</h2>
            <div class="address-phone">
              <div class="phone">
-               <a class="phone-number" href="tel:+78125550555">+7 (812)555-05-55</a>
+               <a class="phone-number-top" href="tel:+78125550555">+7 (812)555-05-55</a>
              </div>
              <span class="address-top">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
            </div>
-            <a class="profile-btn submit">Регистрация</a>
-            <a class="profile-btn enter">Войти</a>
+            <a class="profile-btn submit" href="#">Регистрация</a>
+            <a class="profile-btn enter" href="#">Войти</a>
           <nav class="top-nav">
             <a class="nav-link" href="#">Главная</a>
             <a class="nav-link" href="#">Компания</a>        
@@ -90,12 +89,12 @@
                 <div class="slider-header">Дрели</div>
                 <div class="slider-main-text">Соседям на радость!</div>
               </div>
-              <a class="open-catalog">Открыть каталог</a>
+              <a class="open-catalog" href="#">Открыть каталог</a>
             </div>
-            <button class="prev" type="button"></button>
-            <button class="next" type="button"></button>
-            <button class="fist-slide" type="button"></button>
-            <button class="second-slide" type="button"></button>
+            <button class="arrow prev" type="button"></button>
+            <button class="arrow next" type="button"></button>
+            <button class="slider-page fist-slide" type="button"></button>
+            <button class="slider-page second-slide" type="button"></button>
           </div>
           <div class="menu-item discounts">
             <div class="menu-item-name">Скидки 50%</div>
@@ -113,9 +112,9 @@
           </div>
         </section>
         <section class="goods pop-goods clearfix">
-          <div class="pop-goods-head">
+          <div class="pop-goods-head clearfix">
             <h3 class="pop-head pop-goods-h">Популярные товары:</h3>
-            <a class="btn pop-btn all-pop-goods">Все популярные товары</a>
+            <a class="btn pop-btn all-pop-goods" href="#">Все популярные товары</a>
           </div>
           <div class="goods clearfix">
             <div class="goods-item">
@@ -163,7 +162,7 @@
         <section class="pop-comp clearfix">
           <div class="pop-comp-head">
             <h3 class="pop-head pop-comp-h">Популярные производители:</h3>
-            <a class="btn pop-btn all-pop-comp">Все производители</a>
+            <a class="btn pop-btn all-pop-comp" href="#">Все производители</a>
           </div>
           <div class="pop-comp-gallery">
             <a class="pop-comp-item" href="#">
@@ -231,7 +230,7 @@
       <div class="container">
           <section class="info">
             <div class="about-us">
-              <h6 class="info-h about-us-h">Компания "техномарт"</h6>
+              <h6 class="info-h about-us-h">Компания «техномарт»</h6>
               <p class="about-us-discription">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и <br> строительства не&nbsp;оставит равнодушным любителей сэкономить на&nbsp;гастарбайтерах.</p>
               <p class="about-us-discription-second">Мы&nbsp;можем доставить ваш товар в&nbsp;самые отдаленные точки России!<br>Техномарт работает со&nbsp;многими транспортными компаниями:</p>
               <ul class="transport-list">
@@ -295,29 +294,26 @@
         </div>
       </div>
     </footer>
-    <div class="container">
-      <div class="pop-ups-writeus">
-        <div class="pop-up-text"> 
-          <div class="pop-up-text-top"> 
-            <div class="your-name-wrap">
-              <label class="pop-up-label">Ваше имя:<input type="text" class="your-name" name="your-name" placeholder="Представьтесь, пожалуйста"></label>
-            </div>
-            <div class="your-email-wrap">
-              <label class="pop-up-label">Ваше e-mail:<input type="text" class="your-email" name="your-email" placeholder="Для отправки ответа"></label>
-            </div>
-            <label class="pop-up-label letter">Текст письма:<input type="text" class="letter-text" name="latter" placeholder="В свободной форме"></label> 
-          </div> 
-          <div class="pop-up-text-bot"> 
-            <a href="#" class="btn send">Отправить</a> 
-          </div> 
-        </div>
+      <div class="big-map">
+        <img class="big-map-img" alt="Карта" width="960" height="446" src="_img/mappopup.jpg">
+        <button class="close-map"></button>
       </div>
-    </div>
     <div class="container">
-      <div class="big-map-orient">
-        <div class="big-map">
-          <img class="big-map-img" alt="Карта" width="900" height="446" src="_img/mappopup.jpg">
-        </div>
+      <div class="pop-up-text"> 
+        <div class="pop-up-text-top"> 
+          <button class="close"></button> 
+          <div class="your-name-wrap">
+            <label class="pop-up-label">Ваше имя:<input type="text" class="your-name" name="your-name" placeholder="Представьтесь, пожалуйста"></label>
+          </div>
+          <div class="your-email-wrap">
+            <label class="pop-up-label">Ваше e-mail:<input type="text" class="your-email" name="your-email" placeholder="Для отправки ответа"></label>
+          </div>
+          <label class="pop-up-label letter">Текст письма:<textarea class="letter-text" placeholder="В свободной форме"></textarea>
+          </label> 
+        </div> 
+        <div class="pop-up-text-bot"> 
+          <a href="#" class="btn send">Отправить</a> 
+        </div> 
       </div>
     </div>
   </body>
