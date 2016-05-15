@@ -2271,7 +2271,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
   padding-top: 47px;
   box-shadow: 0 2px 40px rgba(0,0,0,0.6);
-  display: non;
+  display: none;
   padding-top: 41px;
   right: 0px;
   left: 0px;
@@ -2453,7 +2453,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   margin-right: auto;
   top: 340px;
-  display: non;
+  display: none;
 }
 
 .pop-up-cart {
