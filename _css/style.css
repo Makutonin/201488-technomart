@@ -2435,11 +2435,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pop-up-for-position {
+  width: 620px;
   position: fixed;
   z-index: 100;
-  left: 645px;
+  right: 0px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
   top: 340px;
-  display: none;
+  display: non;
 }
 
 .pop-up-cart {
