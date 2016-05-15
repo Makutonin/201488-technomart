@@ -3,7 +3,6 @@
   line-height: 1.71em;
   font-family: "PT Sans", "Arial", sans-serif;
   color: black;
-  background-color: gry;
 }
 
 @font-face {
@@ -164,8 +163,6 @@
     background-position: -15px -345px;
 }
 
-
-di {outline: 1px solid #666;}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
@@ -345,8 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin-left: 9px;
   padding-top: 12px;
-  padding-left: 50px;
-  padding-right: 24px;
+  padding-left: 47px;
   padding-bottom: 13px;
 }
 
@@ -384,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   float: right;
-  width: 150px;
+  width: 146px;
   text-align: center;
   background-color: #63a63e;
   padding: 0px;
@@ -441,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
   padding-top: 7px;
-  padding-left: 72px;
+  padding-left: 70px;
   padding-bottom: 9px;
   padding-right: 54px;
   border: 3px solid white; 
@@ -1073,7 +1069,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pop-comp {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .pop-comp-head {
@@ -1695,8 +1691,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
-  margin-left: 50px;
+  margin-left: 20px;
+  margin-right: 25px;
 }
+
+
 
 .home {
   font-size: 0px;
@@ -1709,7 +1708,18 @@ h1, h2, h3, h4, h5, h6 {
   height: 20px;
   position: absolute;
   top: 2px;
-  left: -17px;
+  left: -23px;
+  background-image: url(../_img/icon-right-bread.png);
+  background-repeat: no-repeat;
+} 
+
+.breadcrumbs-item-name:last-child:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: -32px;
   background-image: url(../_img/icon-right-bread.png);
   background-repeat: no-repeat;
 } 
@@ -2122,7 +2132,7 @@ h1, h2, h3, h4, h5, h6 {
  background-color: #f2f6f8; 
  padding-top: 50px;
  margin-top: 60px;
- padding-bottom: 45px;
+ padding-bottom: 53px;
 }
 
 .category-discription-h {
@@ -2132,15 +2142,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
   text-transform: uppercase;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 .category-discription-main {
-  margin-top: -10px;
+  margin-top: 0px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: normal;
   font-size: 13px;
-  line-height: 2.3em;
+  line-height: 24px;
 }
 
 .my {
@@ -2550,4 +2560,5 @@ h1, h2, h3, h4, h5, h6 {
 .proceed-buy {
   background-color: white;
   text-align: center;
+  color: black;
 }
