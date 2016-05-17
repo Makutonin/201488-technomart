@@ -1120,7 +1120,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .about-us {
-  font-size: 
   margin: 0px;
   width: 550px;
   padding: 0px;
@@ -1738,7 +1737,7 @@ h1, h2, h3, h4, h5, h6 {
 .drills-header {
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 910;
+  width: 910px;
   padding-left: 29px;
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: normal;
@@ -1998,9 +1997,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-..sorting-ascending {
-  position: relative;
-}
 
 .sorting-ascending:before {
   content: "";
@@ -2176,6 +2172,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 14px;
   padding-bottom: 14px;
   text-decoration: none;
+  color: black;
 }
 
 .my-prof:before {
